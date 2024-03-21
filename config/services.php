@@ -31,4 +31,9 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+	'api-main-connector' => [
+		'host' => env('API_MAIN_HOST'),
+		'username' => env('API_MAIN_USERNAME'),
+		'password' => env('API_MAIN_PASSWORD'),
+	],
 ];
